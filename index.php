@@ -16,8 +16,8 @@
 				$speech = "Sorry, didn't get that";
 		}
 		$response = new \stdClass();
-		$response->speech="";
-		$response->displayText="";
+		$response->speech=$speech;
+		$response->displayText=$speech;
 		$response->source="webhook";
 		echo json_encode($response);
 		
